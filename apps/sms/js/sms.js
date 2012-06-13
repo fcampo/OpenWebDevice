@@ -275,13 +275,13 @@ var ConversationListView = {
         break;
     }
   },
-
   executeMessageDelete: function cl_executeMessageDelete() {
     this.deleteMessages(this.delNumList);
     this.delNumList = [];
   },
   
   executeAllMessagesDelete: function cl_executeAllMessagesDelete() {
+
     console.log("*********** NUMLIST ANTES= "+this.delNumList.length);
     this.delNumList = // coger todos los mensajes existentes
     console.log("*********** NUMLIST DESPUES= "+this.delNumList.length);
